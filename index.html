@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Software Engineering Team</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start; /* changed from center to flex-start */
+            min-height: 100vh; /* ensures it takes at least the viewport height */
+            padding-top: 20px; /* adds some space at the top */
+        }
+        .container {
+            width: 80%;
+            max-width: 960px; /* optionally, you can limit the maximum width */
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin-bottom: 20px; /* adds space at the bottom */
+        }
+        .team-title {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .engineer {
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #ddd;
+            padding: 10px;
+            transition: background-color 0.3s;
+        }
+        .engineer:last-child {
+            border-bottom: none;
+        }
+        .engineer:hover {
+            background-color: #f0f0f0;
+        }
+        .photo {
+            flex: 0 0 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-right: 20px;
+            background-size: cover;
+            background-position: center;
+        }
+        .info {
+            flex: 1;
+        }
+        .name {
+            font-size: 1.2em;
+            color: #333;
+        }
+        .role {
+            font-style: italic;
+            color: #666;
+        }
+        .links {
+            margin-top: 5px;
+        }
+        .link {
+            margin-right: 10px;
+            color: #0056b3;
+            text-decoration: none;
+        }
+        .link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="team-title">Meet Professionals Team of Quantum Bases</h1>
+        <!-- Repeat the engineer block for each team member -->
+        <div class="engineer">
+            <div class="photo" style="background-image: url('https://raw.githubusercontent.com/mianammar09/Images/217112c0e9b4422324005599a4ec5397645fab7d/hamza.jpeg');"></div>
+            <div class="info">
+                <div class="name">Hamza Yasin</div>
+                <div class="role">CEO | Quantum Bases</div>
+                <div class="links">
+                    <a href="mailto:Contact@QuantumBases.com" class="link">Email</a>
+                    <a href="https://www.linkedin.com/in/hamzayasin/" class="link">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+        <div class="engineer">
+            <div class="photo" style="background-image: url('https://raw.githubusercontent.com/mianammar09/Images/217112c0e9b4422324005599a4ec5397645fab7d/zain.jpeg');"></div>
+            <div class="info">
+                <div class="name">Zain Ul Abedin</div>
+                <div class="role">CTO | Quantum Bases</div>
+                <div class="links">
+                    <a href="mailto:Contact@QuantumBases.com" class="link">Email</a>
+                    <a href="https://www.linkedin.com/in/zainmustafaaaa/" class="link">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+        <div class="engineer">
+            <div class="photo" style="background-image: url('https://raw.githubusercontent.com/mianammar09/Images/217112c0e9b4422324005599a4ec5397645fab7d/fahad.jpg');"></div>
+            <div class="info">
+                <div class="name">Fahad Aziz</div>
+                <div class="role">Co-Founder | Quantum Bases</div>
+                <div class="links">
+                    <a href="mailto:Contact@QuantumBases.com" class="link">Email</a>
+                    <a href="https://www.linkedin.com/in/fahad-aziz-4b696513a/" class="link">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+        <div class="engineer">
+            <div class="photo" style="background-image: url('https://raw.githubusercontent.com/mianammar09/Images/217112c0e9b4422324005599a4ec5397645fab7d/1712931713935.jpeg');"></div>
+            <div class="info">
+                <div class="name">Abrar Jameel</div>
+                <div class="role">Full Stack Web Developer</div>
+                <div class="links">
+                    <a href="mailto:abrarjamil906@gmail.com" class="link">Email</a>
+                    <a href="https://www.linkedin.com/in/abrar-jamil/" class="link">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+        <div class="engineer">
+            <div class="photo" style="background-image: url('https://raw.githubusercontent.com/mianammar09/Images/b30f484cf83666101274ec6e0605d648c2fd683a/1705685631365.jpeg');"></div>
+            <div class="info">
+                <div class="name">Bilal Hanif</div>
+                <div class="role">Senior Web Developer</div>
+                <div class="links">
+                    <a href="mailto:Contact@QuantumBases.com" class="link">Email</a>
+                    <a href="https://www.linkedin.com/in/bilal-hanif-713792141/" class="link">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
